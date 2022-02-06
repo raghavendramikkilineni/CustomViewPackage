@@ -10,6 +10,11 @@ import Foundation
 
 @available(iOS 13.0.0, *)
 public struct BatmanView: View {
+    
+    public init() {
+        
+    }
+    
    public var body: some View {
         VStack {
         Text("Batman🦇Returns")
@@ -20,7 +25,6 @@ public struct BatmanView: View {
                 .frame(width: 200, height: 300, alignment: .center)
                 .scaledToFit()
         }
-            
     }
 }
 
