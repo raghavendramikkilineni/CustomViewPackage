@@ -9,8 +9,8 @@ import SwiftUI
 import Foundation
 
 @available(iOS 13.0.0, *)
-struct Batman: View {
-    var body: some View {
+public struct BatmanView: View {
+   public var body: some View {
         VStack {
         Text("Batman🦇Returns")
             .font(.largeTitle)
@@ -25,8 +25,8 @@ struct Batman: View {
 }
 
 @available(iOS 13.0.0, *)
-struct SwiftUIView_Previews: PreviewProvider {
+struct BatmanView_Previews: PreviewProvider {
     static var previews: some View {
-        Batman()
+        BatmanView()
     }
 }
