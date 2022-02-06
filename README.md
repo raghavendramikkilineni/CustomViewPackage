@@ -2,6 +2,8 @@
 
 A simple custom view example using swift package manager.
 
+https://github.com/raghavendramikkilineni/CustomViewPackage
+
 import CustomViewPackage
 
 BatmanView()
