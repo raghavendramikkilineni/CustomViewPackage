@@ -2,6 +2,8 @@
 
 A simple custom view example using swift package manager.
 
+The Swift Package Manager is a tool for automating the distribution of Swift code and is integrated into the swift compiler.
+
 https://github.com/raghavendramikkilineni/CustomViewPackage
 
 import CustomViewPackage
